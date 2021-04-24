@@ -1,0 +1,34 @@
+body{
+    /* background-color: lightgray; */
+  
+    margin: 0;
+      width: 100%;
+      height: 100vh;
+    background: linear-gradient(-45deg, #f05006, #dce008, rgb(0, 255, 234), #0697f8);
+      background-size: 400% 400%;
+      -webkit-animation: gradientBG 10s ease infinite;
+              animation: gradientBG 10s ease infinite; 
+  }
+  
+   @-webkit-keyframes gradientBG {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  @keyframes gradientBG {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
